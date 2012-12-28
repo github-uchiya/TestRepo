@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyLabel.h"
+#import "MyTextField.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UITextFieldDelegate>
+
+@property MyTextField* textField_A;
+@property MyLabel* label_B;
 
 @property (strong, nonatomic) UIWindow *window;
 

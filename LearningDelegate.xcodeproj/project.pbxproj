@@ -16,6 +16,8 @@
 		CDD958B3168D7D4900DDC979 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD958B2168D7D4900DDC979 /* Default.png */; };
 		CDD958B5168D7D4900DDC979 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD958B4168D7D4900DDC979 /* Default@2x.png */; };
 		CDD958B7168D7D4900DDC979 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD958B6168D7D4900DDC979 /* Default-568h@2x.png */; };
+		CDD958BF168D808100DDC979 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD958BE168D808100DDC979 /* MyTextField.m */; };
+		CDD958C2168D81DB00DDC979 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD958C1168D81DB00DDC979 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		CDD958B2168D7D4900DDC979 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CDD958B4168D7D4900DDC979 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CDD958B6168D7D4900DDC979 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDD958BD168D808100DDC979 /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		CDD958BE168D808100DDC979 /* MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+		CDD958C0168D81DB00DDC979 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		CDD958C1168D81DB00DDC979 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 			children = (
 				CDD958AF168D7D4900DDC979 /* AppDelegate.h */,
 				CDD958B0168D7D4900DDC979 /* AppDelegate.m */,
+				CDD958BD168D808100DDC979 /* MyTextField.h */,
+				CDD958BE168D808100DDC979 /* MyTextField.m */,
+				CDD958C0168D81DB00DDC979 /* MyLabel.h */,
+				CDD958C1168D81DB00DDC979 /* MyLabel.m */,
 				CDD958A7168D7D4900DDC979 /* Supporting Files */,
 			);
 			path = LearningDelegate;
@@ -166,6 +176,8 @@
 			files = (
 				CDD958AD168D7D4900DDC979 /* main.m in Sources */,
 				CDD958B1168D7D4900DDC979 /* AppDelegate.m in Sources */,
+				CDD958BF168D808100DDC979 /* MyTextField.m in Sources */,
+				CDD958C2168D81DB00DDC979 /* MyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

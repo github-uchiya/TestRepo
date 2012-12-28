@@ -9,11 +9,21 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize textField_A, label_B;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    textField_A = [[MyTextField alloc] initWithFrame:CGRectMake(20, 130, 200, 50)];
+    label_B = [[MyLabel alloc] initWithFrame:CGRectMake(20, 50, 200, 50)];
+    
+    [self.window addSubview:textField_A];
+    [self.window addSubview:label_B];
+    
+    textField_A.delegate = label_B;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
